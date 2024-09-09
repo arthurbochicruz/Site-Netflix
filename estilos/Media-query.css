@@ -1,0 +1,135 @@
+@charset "UTF-8";  
+
+@media screen and (max-width: 600px){
+     html{
+        width: 100vw;
+        height: 100vh;
+     }
+
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    main{
+        margin-right: 100px;
+    }
+
+    article{
+        margin-left: 150px;
+    }
+
+    h1{
+        position: relative;
+        left: 20px;
+    }
+
+    input#iemail{
+        width: 150px;
+        position: relative;
+        right: 240px;
+        top: 10px;
+    }
+
+    input#isenha{
+        width: 150px;
+        position: relative;
+        right: 240px;
+        top: 10px;
+    }
+
+    input#ichek{
+    position: relative;
+    right: 155px;
+    top: 20px;
+   }
+
+   label{
+    position: relative;
+    top: 20px;
+    left: -150px;
+   }
+   
+
+    main{
+        
+          margin-right: 50px;
+          display: flex;
+          width: 200px;
+    }
+
+    button.botao{
+        width: 160px;
+        position: relative;
+        left: -175px;
+        top: 10px;
+    }
+
+    div#footer{
+        margin-top: 20px;
+        margin-right: 30px;
+   }
+
+   img#facebook{
+   position: relative;
+   right: 190px;
+   top: 25px;
+  }
+
+  p#face{
+   position: relative;
+   top: -10px;
+   left: -195px;
+
+  }
+   
+
+   p#ajuda{
+    position: relative;
+    top: 50px;
+    left: -290px;
+   }
+
+   p#assine{
+    position: relative;
+    top: -10px;
+    left: -215px;
+   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+   html{
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-position: center center;
+     overflow-y: hidden;
+    overflow-x: hidden;
+   }
+
+   body{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-position: center center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }
+
+   main{
+    height: 500px;
+    position: relative;
+    top: -30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }
+
+   h1{
+    position: relative;
+    top: 0px;
+   }
+
+
+
+}
